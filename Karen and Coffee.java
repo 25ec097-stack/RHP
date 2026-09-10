@@ -24,6 +24,7 @@ public class Main{
         p[i]=p[i-1];
       }
     }
+    
     StringBuilder sb = new StringBuilder();
     for(int i=0;i<q;i++){
       int a = sc.nextInt();
