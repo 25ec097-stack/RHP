@@ -2,7 +2,6 @@ class Solution {
 public:
     const int diff[4][2]={{0,-1},{0,1},{-1,0},{1,0}};
     int dfs(vector<vector<int>>&matrix, vector<vector<int>>&dp,int R,int C,int row,int col){
-        //Base condition or Gauge or Exit Condition
         if(dp[row][col]!=0){
             return dp[row][col];
         }
